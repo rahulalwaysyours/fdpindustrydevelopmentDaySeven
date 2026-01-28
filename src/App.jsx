@@ -5,6 +5,8 @@ import UserPagination from './components/UserPagination.jsx'
 import Header from './components/header.jsx'
 import Footer from './components/footer.jsx'
 import { InfiniteScrolling } from './components/InfiniteScrolling.jsx'
+import { SearchWithDebounce } from './components/SearchWithDebounce.jsx'
+
 import './App.css'
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
     <>
       <div>
         <Header></Header>
+        <SearchWithDebounce></SearchWithDebounce>
         <InfiniteScrolling></InfiniteScrolling>
         <UserPagination></UserPagination>
         <Footer></Footer>
