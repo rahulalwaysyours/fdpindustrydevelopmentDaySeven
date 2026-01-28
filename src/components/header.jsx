@@ -44,7 +44,7 @@ export default function Header() {
                 {/* Highlight Badge */}
                 <div className="mt-6 flex justify-center">
                     <span className="px-5 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-medium">
-                        React • API Pagination • Tailwind CSS • Secure API Key Usage
+                        React • API Pagination • Infinite Scrolling • Tailwind CSS • Secure API Key Usage
                     </span>
                 </div>
             </div>

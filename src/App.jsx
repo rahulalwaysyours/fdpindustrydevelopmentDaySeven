@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import UserPagination from './components/UserPagination.jsx'
 import Header from './components/header.jsx'
 import Footer from './components/footer.jsx'
+import { InfiniteScrolling } from './components/InfiniteScrolling.jsx'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <div>
         <Header></Header>
+        <InfiniteScrolling></InfiniteScrolling>
         <UserPagination></UserPagination>
         <Footer></Footer>
       </div>   
