@@ -1,8 +1,19 @@
+import rahulLogo from '../assets/RahulLogo.png'
+
 export default function Header() {
     return (
         <header className="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 text-white">
             <div className="max-w-7xl mx-auto px-6 py-14 text-center">
                 
+                <div className="mb-6 flex justify-center">
+                    <img 
+                        src={rahulLogo} 
+                        alt="Rahul Kesarwani Official Logo" 
+                        width={150}
+                        className="rounded-full border-1 border-white shadow-lg hover:scale-130 transition-transform duration-300"
+                    />
+                </div>
+
                 {/* Main Title */}
                 <h1 className="text-3xl md:text-4xl font-bold tracking-wide">
                     Hi, I am Rahul Kesarwani
