@@ -1,4 +1,5 @@
 import rahulLogo from '../assets/RahulLogo.png'
+import rahulPhotograph from '../assets/RahulPro.png'
 
 export default function Header() {
     return (
@@ -9,6 +10,15 @@ export default function Header() {
                     <img 
                         src={rahulLogo} 
                         alt="Rahul Kesarwani Official Logo" 
+                        width={150}
+                        className="rounded-full border-1 border-white shadow-lg hover:scale-130 transition-transform duration-300"
+                    />
+                </div>
+
+                <div className="mb-6 flex justify-center">
+                    <img 
+                        src={rahulPhotograph} 
+                        alt="Rahul Kesarwani Professional Photograph" 
                         width={150}
                         className="rounded-full border-1 border-white shadow-lg hover:scale-130 transition-transform duration-300"
                     />
