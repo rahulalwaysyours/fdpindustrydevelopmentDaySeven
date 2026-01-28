@@ -136,8 +136,6 @@ export function SearchWithDebounce(){
                 No users found matching "{debouncedSearch}". Try a different search
             </p>
         )}
-
-
         </>
     )
 }
